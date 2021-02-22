@@ -15,16 +15,19 @@
 <main>
 
     <fieldset>
+        <form action="" method="post">
         <p>Nie przesłano jeszcze żadnej wiadomości. Rozpocznij konwersację.</p>
         <p>
             <label for="msgText"></label>
-            <input type="text" name="msgText" id="msgText" placeholder="Twoja wiadomość">
+            <input type="text" name="msgText" id="msgText" placeholder="Twoja wiadomość" rows="5" required>
         </p>
         <p>
-            <input type="text" name="userData" id="userData" placeholder="Twoj nick-name">
+            <input type="text" name="userData" id="userData" placeholder="Twoj nick-name" required>
         </p>
         <button>Wyślij</button>
-    </fieldset>
+        </form>
+   </fieldset>
+
 </main>
 </body>
 </html>
